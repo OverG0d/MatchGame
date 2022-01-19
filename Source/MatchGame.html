@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang = "en">
+<head>
+<title>Matching Game</title>
+<link rel="stylesheet" type="text/css" href="MatchGame.css">
+</head>
+<body>
+<div class="Stage">
+   <h1 id="XXC">Xbox 360 X Candy</h1>
+     <div class="BoxWin">
+      <h2>You win!</h2>
+      <div><button type="button" id="PlayAgainOne">Play Again</button></div>
+	  <div><button type="button" id="BackToMenuOne">Back To Menu</button></div>
+	 </div>
+	 <div class="BoxLose">
+      <h2>You Lose!</h2>
+      <div><button type="button" id="PlayAgainTwo">Play Again</button></div>
+	  <div><button type="button" id="BackToMenuTwo">Back To Menu</button></div>
+	</div>
+   <h1 id="HowToPlay">How to play</h1>
+   <p  id="How">This is a matching game which requires you to click on one tile
+   and then another tile and if they are the same they will match. In order to win, 
+   you have to match all the tiles before the time runs out. Good luck!</p>
+   <h1 id="Credits">Credits</h1>
+   <p  id="Credit">I would like to thank GDquest and SethByrd 
+   for the pictures and I would like to thank qubodup and edwinnington for
+   the music.</p>
+   <div><button  type="Button" id="Button1">Start Game</button></div>
+   <br>
+   <div><button  type="Button" id="Button2">How to Play</button></div>
+   <br>
+   <div><button  type="Button" id="Button3">Credits</button></div>
+   <br>
+   <div><button  type="Button" id="Button4">Quit Game</button></div>
+   <br>
+   <div><audio   autoplay loop id="MenuMusic" ><source src=" ../Music/MenuTheme.mp3" type="audio/mpeg"></div>
+   <div><audio    id="GameOver" ><source src=" ../Music/GameOver.mp3" type="audio/mpeg"></div>
+   <div><audio    id="GameTheme"  loop ><source src=" ../Music/InGameTheme.mp3" type="audio/mpeg"></div>
+   <div><audio   id="countDown"  ><source src=" ../Music/countdown.mp3" type="audio/mpeg"></div>
+   <div><audio   id="Pop" ><source src=" ../Music/pop1.mp3" type="audio/mpeg"></div>
+   <div><audio   id="VictoryMusic" ><source src=" ../Music/VictoryMusic.mp3" type="audio/mpeg"></div> 
+   <div id="xCard1" onmouseup="flipAndMatch(xCard1,  0)"  class="Cards"></div>
+   <div id="xCard2"  onmouseup="flipAndMatch(xCard2,  1)" class="Cards" ></div>
+   <div id="xCard3"  onmouseup="flipAndMatch(xCard3, 2)" class="Cards"></div>
+   <div id="xCard4"  onmouseup="flipAndMatch(xCard4, 3)" class="Cards"></div>
+	<br>
+	<div id="xCard5"  onmouseup="flipAndMatch(xCard5, 4)"class="Cards"></div>
+	<div id="xCard6" onmouseup="flipAndMatch(xCard6, 5)"class="Cards"></div>
+	<div id="xCard7" onmouseup="flipAndMatch(xCard7, 6)"class="Cards"></div>
+    <div id="xCard8" onmouseup="flipAndMatch(xCard8, 7)"class="Cards"></div>
+	<br>
+	<div id="xCard9"onmouseup="flipAndMatch(xCard9, 8)"  class="Cards"></div>
+    <div id="xCard10" onmouseup="flipAndMatch(xCard10, 9)" class="Cards"></div>
+	<div id="xCard11" onmouseup="flipAndMatch(xCard11, 10)" class="Cards"></div>
+	<div id="xCard12" onmouseup="flipAndMatch(xCard12, 11)" class="Cards"></div>
+	<br>
+	<div id="xCard13" onmouseup="flipAndMatch(xCard13, 12)" class="Cards"></div>
+	<div id="xCard14" onmouseup="flipAndMatch(xCard14, 13)" class="Cards"></div>
+	<div id="xCard15" onmouseup="flipAndMatch(xCard15, 14)" class="Cards"></div>
+	<div id="xCard16"onmouseup="flipAndMatch(xCard16, 15)" class="Cards"></div>
+	<br>
+   <div id="xCard17" onmouseup="flipAndMatch(xCard17, 16)" class="Cards"></div>
+   <div id="xCard18" onmouseup="flipAndMatch(xCard18, 17)" class="Cards"></div>
+   <div id="xCard19" onmouseup="flipAndMatch(xCard19, 18)" class="Cards"></div>
+   <div id="xCard20" onmouseup="flipAndMatch(xCard20, 19)" class="Cards"></div>
+   <br>
+   <div id="xCard21" onmouseup="flipAndMatch(xCard21, 20)" class="Cards"></div>
+   <div id="xCard22" onmouseup="flipAndMatch(xCard22, 21)" class="Cards"></div>
+   <div id="xCard23" onmouseup="flipAndMatch(xCard23, 22)" class="Cards"></div>
+   <div id="xCard24"onmouseup="flipAndMatch(xCard24, 23)" class="Cards"></div>
+   <br>
+   <p id="Score"></p>
+   <p id="Timer">2:00:00</p>
+   <div><button type="Button" id="Button5">Back to menu</button></div>
+</div>
+<script src="MatchGame.js"></script>
+</body>
+</html>

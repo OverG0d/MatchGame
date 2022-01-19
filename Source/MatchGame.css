@@ -1,0 +1,392 @@
+body
+{
+background-image: url("../Image/Xbox360.png");
+}
+h1
+{
+display: block;
+text-align: top;
+color: purple;
+font-style: italic;
+font-size; 40px;
+}
+h2
+{
+color: green;
+font-style: italic;
+font-size: 40px;
+}
+p
+{
+display: none;
+text-align: center;
+color: purple;
+font-size: 20px;
+}
+.Stage
+{
+background-image: url("../Image/CandyLand.png");
+text-align: center;
+display: block;
+margin: 0px auto;
+width: 700px;
+height: 700px;
+position: relative;
+margin-bottom: 500px;
+}
+.BoxWin
+{
+position: absolute;
+display:none;
+width: 250px;
+height: 250px;
+right: 230px;
+bottom: 250px;
+background-color: pink;
+text-color: pink;
+}
+.BoxLose
+{
+display:none;
+position: absolute;
+right: 230px;
+bottom: 250px;
+width: 250px;
+height: 250px;
+background-color: pink;
+text-color: pink;
+}
+.Cards
+{
+position: absolute;
+width: 90px;
+height: 90px;
+display: none;
+float: left;
+margin-bottom: 0px;
+margin-left: 60px;
+}
+#xCard1
+{
+   background-image: url("../Image/XCard.png");
+   top: 100px;
+   left: 0px;
+}
+#xCard2
+{
+   background-image: url("../Image/XCard.png");
+   top: 100px;
+   left: 170px;
+}
+#xCard3
+{
+   background-image: url("../Image/XCard.png");
+   top: 100px;
+   left: 330px;
+}
+#xCard4
+{
+   background-image: url("../Image/XCard.png");
+   top: 100px;
+   left: 495px;
+}
+#xCard5
+{
+   background-image: url("../Image/XCard.png");
+   top: 200px;
+   left: 0px;
+}
+#xCard6
+{
+   background-image: url("../Image/XCard.png");
+   top: 200px;
+   left: 170px;
+}
+#xCard7
+{
+   background-image: url("../Image/XCard.png");
+   top: 200px;
+   left: 330px;
+}
+#xCard8
+{
+   background-image: url("../Image/XCard.png");
+   top: 200px;
+   left: 495px;
+}
+#xCard9
+{
+   background-image: url("../Image/XCard.png");
+   top: 300px;
+   left: 0px;
+}
+#xCard10
+{
+   background-image: url("../Image/XCard.png");
+   top: 300px;
+   left: 170px;
+}
+#xCard11
+{
+   background-image: url("../Image/XCard.png");
+   top: 300px;
+   left: 330px;
+}
+#xCard12
+{
+   background-image: url("../Image/XCard.png");
+   top: 300px;
+   left: 495px;
+}
+#xCard13
+{
+   background-image: url("../Image/XCard.png");
+   top: 400px;
+   left: 0px;
+}
+#xCard14
+{
+   background-image: url("../Image/XCard.png");
+   top: 400px;
+   left: 170px;
+}
+#xCard15
+{
+   background-image: url("../Image/XCard.png");
+   top: 400px;
+   left: 330px;
+}
+#xCard16
+{
+   background-image: url("../Image/XCard.png");
+   top: 400px;
+   left: 495px;
+}
+#xCard17
+{
+   background-image: url("../Image/XCard.png");
+   top: 500px;
+   left: 0px;
+}
+#xCard18
+{
+   background-image: url("../Image/XCard.png");
+   top: 500px;
+   left: 170px;
+}
+#xCard19
+{
+   background-image: url("../Image/XCard.png");
+   top: 500px;
+   left: 330px;
+}
+#xCard20
+{
+   background-image: url("../Image/XCard.png");
+   top: 500px;
+   left: 495px;
+}
+#xCard21
+{
+   background-image: url("../Image/XCard.png");
+   top: 600px;
+   left: 0px;
+}
+#xCard22
+{
+   background-image: url("../Image/XCard.png");
+   top: 600px;
+   left: 170px;
+}
+#xCard23
+{
+   background-image: url("../Image/XCard.png");
+   top: 600px;
+   left: 330px;
+}
+#xCard24
+{
+   background-image: url("../Image/XCard.png");
+   top: 600px;
+   left: 495px;
+}
+#Credits
+{
+display: none;
+}
+#Score
+{
+display: none;
+font-size: 40px;
+position: absolute;
+top: 5px;
+left: 50px;
+}
+#Timer
+{
+display: none;
+font-size: 40px;
+position: absolute;
+top: 5px;
+left: 400px;
+}
+#Button1
+{
+border-radius: 20px;
+position: absolute;
+left: 300px;
+display: block;
+margin-top: 150px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#Button2
+{
+border-radius: 20px;
+position: absolute;
+left: 300px;
+display: block;
+margin-top: 200px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#Button3
+{
+border-radius: 20px;
+position: absolute;
+left: 300px;
+display: block;
+margin-top: 250px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#Button4
+{
+border-radius: 20px;
+position: absolute;
+left: 300px;
+display: block;
+margin-top: 300px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#Button5
+{
+border-radius: 20px;
+display: none;
+position: absolute;
+top: 0px;
+left: 0px;
+margin-top: 1px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#XXC
+{
+display: block;
+}
+#Credits
+{
+display: none;
+}
+#Credit
+{
+margin-top: 150px;
+display: none;
+margin-left: auto;
+margin-right: auto;
+width: 6em;
+}
+#HowToPlay
+{
+display: none;
+}
+#How
+{
+margin-top: 20px;
+display: none;
+margin-right: auto;
+margin-left: auto;
+width: 6em;
+}
+#PlayAgainOne
+{
+border-radius: 20px;
+display: none;
+position: absolute;
+top: 100px;
+left: 50px;
+margin-top: 1px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#BackToMenuOne
+{
+border-radius: 20px;
+display: none;
+position: absolute;
+top: 150px;
+left: 50px;
+margin-top: 1px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#PlayAgainTwo
+{
+border-radius: 20px;
+display: none;
+position: absolute;
+top: 100px;
+left: 50px;
+margin-top: 1px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+#BackToMenuTwo
+{
+border-radius: 20px;
+display: none;
+position: absolute;
+top: 150px;
+left: 50px;
+margin-top: 1px;
+color: purple;
+font-weight: bold;
+background-color: red;
+padding: 10px 20px;
+border: 2px solid;
+cursor: pointer;
+}
+
